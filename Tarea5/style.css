@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(183, 225, 236);
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.container__img1,
+.container__img2,
+.container__img3{
+    height: 250px;
+    width: auto;
+}
+
+.container__img1:hover{
+    filter: blur(10px);
+}
+
+.container__img2:hover{
+    filter: opacity(.10);
+}
+
+.container__img3:hover{
+    filter: grayscale(80%);
+}
